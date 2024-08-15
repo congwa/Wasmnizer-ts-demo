@@ -1,0 +1,20 @@
+{
+  "name": "wasmnizer-ts-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "wasm": "node lib/ts2wasm.min.js --opt=3 wasm/index.ts -o wasm/index.wasm"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0",
+    "vite-plugin-wasm": "^3.3.0"
+  },
+  "dependencies": {
+    "long": "^5.2.3"
+  }
+}
