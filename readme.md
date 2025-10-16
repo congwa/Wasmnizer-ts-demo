@@ -1,5 +1,7 @@
 # Wasmnizer-ts demo
 
+> Wasmnizer-ts 项目目前团队已经解散，并不会维护了。可惜了
+
 ## 已实现
 
 - [x] wasm调用js的全局方法
